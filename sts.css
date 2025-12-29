@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #1565c0;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #1565c0;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.img-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.img-row img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.player-box {
+    text-align: center;
+    width: 220px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.player-box img {
+    width: 100%;
+    border-radius: 10px;
+}
